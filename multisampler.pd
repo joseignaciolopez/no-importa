@@ -1,0 +1,11 @@
+#N canvas 256 278 763 228 10;
+#X msg 659 74 \; volume 1 \;;
+#X obj 659 53 loadbang;
+#X obj 97 55 uno;
+#X obj 284 54 uno 1;
+#X obj 470 53 uno 2;
+#X obj 97 158 else/out~;
+#X obj 57 55 bng 30 250 50 0 load empty empty 17 7 0 10 -4034 -1 -1
+;
+#X text 10 34 load samples;
+#X connect 1 0 0 0;
